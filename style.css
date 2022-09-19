@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./IMG/fondoweb.jpg);
+    background-size: cover;
+}
+.titulo_principal{
+    font-size: 2em;
+    color: rgb(255, 254, 254);
+    padding-top: 3em;
+}
+.menu ul li {
+    display: inline; 
+    font-size: 1.5em;
+    float: left;
+    font-family: sans-serif;
+    
+}
+.menu a {
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #000;
+    position: fixed;
+    width: 100vw;
+}
+.menu li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.active{
+    background-color: rgb(0, 0, 213);
+}
